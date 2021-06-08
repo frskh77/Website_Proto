@@ -1,0 +1,113 @@
+body {
+    margin: 0;
+    font-family: "Lucida Grande";
+  }
+  
+a {
+    text-decoration: none;
+  }
+
+.container {
+    width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.top-wrapper {
+    padding: 180px 0 100px 0;
+    background-image: url(foodpic1.jpg);
+    background-size: cover;
+    color: white;
+    text-align: center;
+
+}
+
+.top-wrapper h1 {
+    opacity: 1;
+    font-size: 45px;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+}
+
+.top-wrapper p {
+    opacity: 1;
+    margin-bottom: 3px;
+}
+
+.btn-wrapper {
+    margin: 20px 0;
+}
+
+.btn-wrapper p {
+    margin: 10px 0;
+}
+
+.facebook {
+    background-color: #3b5998;
+  }
+  
+.signup {
+    background-color: #239b76;
+  }
+  
+.btn {
+    padding: 12px 24px;
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 4px;
+  }
+
+.btn:hover {
+    opacity: 1;
+  }
+  
+.fa {
+    margin-right: 5px;
+  }
+
+.service-wrapper {
+    height: 500px;
+    background-color: #f7f7f7;
+    text-align: center;
+  }
+  
+.heading {
+    padding-top: 60px;
+    padding-bottom: 30px;
+    color: #5f5d60;
+  }
+  
+.heading h2 {
+    font-weight: normal;
+  }
+  
+.service {
+    float: left;
+    width: 25%;
+  }
+  
+.service-icon {
+    position: relative;
+  }
+  
+.service-icon p {
+    position: absolute;
+    top: 140px;
+    width: 100%;
+    color: black;
+  }
+  
+.txt-contexts {
+    width: 80%;
+    display: inline-block;
+    margin-top: 50px;
+    font-size: 15px;
+    color: #b3aeb5;
+  }
+
+.service-icon img {
+    width:  auto;
+    height: 150px;
+    object-fit: cover;
+}
